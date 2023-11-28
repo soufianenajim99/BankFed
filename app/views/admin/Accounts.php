@@ -4,12 +4,12 @@
     require_once '../../models/accounts.php';
     require_once '../../models/user.php';
 
-    if (isset($_POST['submit'])) {
-        $balance = $_POST['Balance'];
-        $rib = $_POST['rib'];
-        $userID = $_POST['accountOwner'];
+    // if (isset($_POST['submit'])) {
+    //     $balance = $_POST['Balance'];
+    //     $rib = $_POST['rib'];
+    //     $userID = $_POST['accountOwner'];
     
-        }
+    //     }
         
     $user = new Users();
     $users = $user->displayUser();
